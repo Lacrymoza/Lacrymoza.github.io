@@ -12,7 +12,7 @@ var goldpb = [];
 var goldco = [];
 var goldvol = [];
 var goldvi = [];
-var placemarks = [gold, silverpoly, goldp,  goldcu, goldpoly, goldsu, goldpb, goldco; goldvol; goldvi];
+var placemarks = [gold, silverpoly, goldp,  goldcu, goldpoly, goldsu, goldpb, goldco, goldvol, goldvi];
 
 function init() {
     myMap = new ymaps.Map("map", {
