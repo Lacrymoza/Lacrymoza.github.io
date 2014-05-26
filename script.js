@@ -144,7 +144,9 @@ function init() {
     });
     goldvi_button.events.add(['deselect'], function (e) {
         hideGroup(goldvi);    
+    });
 
+    
     myMap.controls.add(typeControls);
 }
 
