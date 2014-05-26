@@ -146,13 +146,13 @@ function init() {
         hideGroup(goldvi);    
     });
 
-    
+
     myMap.controls.add(typeControls);
 }
 
 
 function showGroup(group) {
-    myMap.setCenter([41.20, 74.00], 6, { duration: 1000 });
+    myMap.setCenter([41.20, 74.00], 8, { duration: 1000 });
     for (var i = 0; i < group.length; i++) {
         group[i].options.set({ visible: true });
     }
