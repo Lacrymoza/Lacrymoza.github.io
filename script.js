@@ -151,9 +151,8 @@ function init() {
 }
 
 
-function showGroup(group)
-{
-    myMap.setCenter([41.20, 74.00], 6, { duration: 20000 });
+function showGroup(group) {
+    myMap.setCenter([41.20, 74.00], 6, { duration: 1000 });
     for (var i = 0; i < group.length; i++) {
         group[i].options.set({ visible: true });
     }
